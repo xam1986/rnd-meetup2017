@@ -26,4 +26,12 @@ public class Account {
 
     /* TODO возможно так не получится, надо коллекцию Long - ов*/
     private Collection<Document> docs;
+
+    public Account(Long clientId, String accountNumber, String name) {
+        this.id = ID_GEN.incrementAndGet();
+        this.clientId = clientId;
+        this.accountNumber = accountNumber;
+        this.name = name;
+        this.openDate = new Date();
+    }
 }
