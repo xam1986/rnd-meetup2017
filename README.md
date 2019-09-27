@@ -1,2 +1,2 @@
 # sber.hakaton
-Приложение хакатона. Apache Ignite - Hibernate OGM - kafka - React
+Приложение для хакатона. Apache Ignite - Hibernate OGM - kafka - React
